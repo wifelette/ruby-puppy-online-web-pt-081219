@@ -7,7 +7,7 @@ class Dog
     @@all << name
   end
 
-  self.class
+  self.all
     @@all
   end
 end
