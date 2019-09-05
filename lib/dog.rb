@@ -20,4 +20,9 @@ class Dog
   def self.print_all
     puts @@all
   end
+
+  def save
+    @@all << self
+  end
+
 end
