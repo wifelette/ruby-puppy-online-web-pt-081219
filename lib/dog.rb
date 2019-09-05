@@ -6,4 +6,8 @@ class Dog
     @name = name
     @@all << name
   end
+
+  self.class
+    @@all
+  end
 end
